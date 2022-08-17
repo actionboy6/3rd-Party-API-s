@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+    background: #222;
+}
+
+.card {
+    background-color: aqua;
+    padding: 2rem;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+    margin: 1rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}

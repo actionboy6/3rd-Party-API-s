@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+</head>
+<body class="min-100-vh flex-column">
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" id="inputBar">
+            <button class="btn btn-danger" id="fetch-button">
+                Get the Weather
+            </button>
+            <div class="weather">
+                <h2 class="city">Weather in your city</h2>
+                <h1 class="temp" id="temp"></h1>
+                <div class="description"></div>
+                <div class="humidity"></div>
+                <div class="wind"></div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
